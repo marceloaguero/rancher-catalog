@@ -1,0 +1,6 @@
+name: Gluster FS - Marcelo Aguero
+description: |
+  Replicated Gluster Volume
+version: 3.7.5-rancher1
+category: Storage
+maintainer: Marcelo Aguero
