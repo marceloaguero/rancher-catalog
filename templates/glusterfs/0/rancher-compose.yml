@@ -1,5 +1,5 @@
 .catalog:
-  name: "GlusterFS"
+  name: "GlusterFS Marcelo"
   version: "3.7.5-rancher1"
   description: "Gluster FS (3x) replicated volume"
   questions:
