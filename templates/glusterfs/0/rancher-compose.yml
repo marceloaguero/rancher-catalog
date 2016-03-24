@@ -1,6 +1,6 @@
 .catalog:
   name: "GlusterFS Marcelo"
-  version: "3.7.5-rancher1"
+  version: "3.7.9-rancher1"
   description: "Gluster FS (3x) replicated volume"
   questions:
     - variable: "VOLUME_NAME"
@@ -24,5 +24,6 @@
         - "host"
 glusterfs-server:
   scale: 3
+  retain_ip: true
   metadata:
     volume_name: "${VOLUME_NAME}"
